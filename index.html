@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chistes App</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Chistes</div>
+        <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+        <nav id="menu" class="menu">
+            <a href="index.html">Home</a>
+            <a href="acerca.html">Acerca de</a>
+        </nav>
+    </header>
+    <main class="section">
+        <div class="chiste-container">
+            <p id="chiste">Cargando chiste...</p>
+            <div class="botones">
+                <button onclick="anteriorChiste()">Anterior</button>
+                <button onclick="siguienteChiste()">Siguiente</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Charly Gobbo – Proyecto Académico</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
